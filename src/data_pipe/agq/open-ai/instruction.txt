@@ -1,0 +1,33 @@
+As a fact verifier using Google search to gather evidence for or against a claim, your task is to identify crucial and distinct questions that will aid in your research. 
+Below, you're presented with a claim to verify and a document that justifies an actual verifier's approach for background knowledge. 
+Along with these, there are 10 potential Google search queries related to the claim. 
+You need to evaluate each query's relevance to the task of collecting evidence to support or refute the claim. 
+Here are the criteria for a relevant search query:
+
+1) It directly relates to the claim or is inspired by the approach taken by verifier's justification document.
+2) It is practical and reflects a depth of knowledge, meaning it's not overly similar to the content of the justification document.
+3) It avoids redundancy within the list of queries; 
+if different queries are likely to return similar results, choose within the alike ones only the one that is most important to the claim relevant and deem other alike ones irrelevant.
+
+
+Below is an example:
+
+Claim:
+"Two days of interest we pay to China is enough to buy one joint strike fighter [jet]."
+
+Justification document:
+Like many congressional freshmen, Republican Rep. Tom Graves of Georgia is worried about the nation’s spiraling debt and how much of it is owned by China.Graves, whose district consists of 15 northwest Georgia counties, including Forsyth, talked about the problem of deficit spending at a recent town hall meeting."Two days of interest we pay to China is enough to buy one joint strike fighter [jet]," Graves told the largely receptive crowd, according to the Cumming Patch website.Those aircraft usually cost astronomical sums of money, so we wondered whether the congressman’s math was correct. On average, does the United States really pay that much money in debt to China? Or did Graves use hyperbole to scare his town hall audience about the rapidly growing economic influence of China?Our friends at PolitiFact Virginia did some of our homework for us. In April, they fact-checked a claim by U.S. Rep. J. Randy Forbes, R-Va., that the federal government pays China nearly $74 million a day in debt interest.PolitiFact Virginia found U.S. Treasury Department reports that show China holds about $1.165 trillion of the national debt. In the most recent 12-month period available, the U.S. spent about $197 billion in interest payments on its debt. Since China owns about 12.8 percent of the U.S. debt, PolitiFact Virginia assumed that country received a similar percentage of the debt interest payments, which for fiscal year 2010 would total nearly $69 million a day. But since the debt increased in the current fiscal year, which ends Sept. 30, PolitiFact Virginia did some more math and determined the interest payments to China would be $74.4 million a day, which earned Forbes a True rating on its Truth-O-Meter. Two days of interest payments would total nearly $150 million.So, the next question: How much do these jets cost?The cost to produce a joint strike fighter jet, also known as the F-35, has caused a stir in Washington in recent months. They’re being made by Lockheed Martin, which has a plant in Marietta, and are said to be the most technologically advanced jets ever developed. The jets are being made for the Air Force, Marines and Navy. For the Marines and Navy, it will be the first time they have stealth jets, said Joe DellaVedova, a spokesman for the F-35 Joint Program Office.They’re also very expensive, and some members of Congress are angry about the rising costs. Defense Department officials recently told the U.S. Senate’s Armed Services Committee that the cost for some of the initial planes ordered was 11 percent to 15 percent higher than expected."Disgraceful," tweeted U.S. Sen. John McCain, R-Az., who has been critical of F-35 cost overruns.Cost estimates are all over the place in news accounts. The most accurate estimate came from a Defense Department report that officials say was leaked to the news media a few months ago. The price to build and operate 2,443 of the jets was recently estimated to be about $93 million to $112 million apiece, according to a 2010 Pentagon report. DellaVedova did not dispute the cost estimate.So if we take two days of interest payments, which we believe adds up to about $150 million, that total does eclipse the highest estimate for a F-35 jet, $112 million. Graves’ office estimates the total cost per jet at about $132 million, using a July report from the Congressional Research Service. It used the PolitiFact Virginia report to determine the average daily debt payment to China.We believe Graves has a good argument to base his claim.We rate it as True.
+
+Queries:
+1) Tom Graves statement on US debt to China # Relevant 
+2) US debt interest payments to China       #Irrelevant - Redundant, covered by 6 and 6 is more relevant to the claim
+3) Cost of joint strike fighter jet	    #Relevant
+4) China's ownership of US national debt    #Irrelevant- Redundant, covered by 7, 7 is more relevant to the claim
+5) Lockheed Martin F-35 production cost	    #Relevant
+6) US Treasury Department reports on debt interest payments #Relevant	
+7) Percentage of US debt owned by China	#Irrelevant - Redundant,covered by 6
+8) Congressional Research Service report on F-35 cost #Relevant	
+9) Defense Department report on F-35 cost estimates #Relevant	
+10)PolitiFact Virginia fact-check on US debt interest payments to China #Irrelevant, too specific to justification document
+
+final answer ffor this row will be mentioned as: 1,1,1,0,1,1,0,1,1,0

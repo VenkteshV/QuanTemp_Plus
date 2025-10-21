@@ -1,0 +1,23 @@
+[CLAIM]
+Prime Minister Narendra Modi breached the election protocol by addressing a rally in Howrah on April 6.
+[END]
+
+[PASSAGE]
+Modi addressed a rally in Cooch Behar and Howrah’s Dumurjola on April 6, where polls were held on April 10. The silence period was not breached. As the polling for the third phase of the West Bengal assembly election was underway for 31 seats on April 6, Modi addressed two rallies. The first rally was at the Rash Mela Ground in Cooch Behar. The second was three hours later in Howrah’s Dumurjola, the Tribune India reported. Ahead of Modi’s rallies, CM Mamata Banerjee objected to them and urged the Election Commission to act against the party for allegedly violating the Model Code of Conduct. According to Section 126 of the Representation of People Act, 1951, a silence period is observed in a poll-bound region 48 hours until the polling concludes. During this period, the candidates or parties cannot conduct active campaigning in the area, nor can digital media or television channels carry any election-related matter. On April 6, the voting took place in various parts of rural Howrah, namely the Sunderban region, the Diamond Harbour and Baruipur belts in the South 24 Parganas, and parts of the Hooghly district. However, the voting did not take place in Howrah’s Dumurjola, where Modi addressed his rally. In Dumurjola, the voting took place in the fourth phase on April 10. Therefore, Modi did not breach the 48 hours silence period. The voting for West Bengal assembly elections for 294 seats is taking place in eight phases from March 27 to April 29. The counting of votes would take place on May 2.
+Published: 2021-04-07
+[END]
+
+[QUERIES]
+- Modi rally in Howrah 2021
+- Prime Minister Narendra Modi rally on April 6
+- election in Howrah 2021
+- election silence period in India
+- locations of Howrah voting
+- CM Mamata Banerjee Modi's rallies in 2021
+- silence period affect campaigning and media coverage of elections
+[END]
+
+Using the above as an example, generate at most 10 independent, short and diverse google search phrases required to verify or debunk the below claim labelled under [CLIAM].
+Note: Generate diverse questions tending to the different numerical and temporal aspects both implit and explicit to the claim.
+Note: Use the passage under [PASSAGE] for reference to generate queries. Do not generate queries for the passage.  
+Note: You must exclude any questions about fact checking. 

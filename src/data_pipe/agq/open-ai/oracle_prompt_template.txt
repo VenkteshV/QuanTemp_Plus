@@ -1,0 +1,4 @@
+Given below is a claim and the justification document for verification of the claim provided by a human fact checker.
+You need to simulate google search and present google search snippets that present as key evidences as per the justification document.
+Give me one snippet on each line and nothing else
+You must not have snippets about conclusion of the verification of the claim of the verifiers opionion 

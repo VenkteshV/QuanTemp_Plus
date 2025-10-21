@@ -1,0 +1,7 @@
+[submodule "contriever"]
+	path = contriever
+	url = https://github.com/DeepaliP98/contriever.git
+
+[submodule "QuanTemp"]
+	path = QuanTemp
+	url = https://github.com/DeepaliP98/QuanTemp.git
