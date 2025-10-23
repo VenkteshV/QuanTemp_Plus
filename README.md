@@ -1,5 +1,27 @@
 # Overview
 In this repository, we introduce QuanTemp++: a dataset consisting of natural numerical claims, an open domain corpus, and the corresponding evidence relevance and veracity labels. Given this dataset, we also aim to characterize the retrieval performance of key query planning paradigms, especially those of decomposition as they have shown promising results in other tasks. Finally, we observe their effect on the outcome of the verification pipeline and draw insights.
+# Dataset Statistics
+
+| Split       | TRUE | FALSE | CONFLICTING | Total |
+|--------------|------|--------|--------------|--------|
+| Train        | 1824 | 5770   | 2341         | 9935   |
+| Validation   | 617  | 1759   | 672          | 3084   |
+| Test         | 474  | 1423   | 598          | 2495   |
+| **Total**    |      |        |              | **15514** |
+
+**Table 1:** Distribution of claims by veracity label
+
+
+| Split       | Temporal | Interval | Statistical | Comparison |
+|--------------|-----------|-----------|--------------|-------------|
+| Train        | 2672      | 1541      | 4660         | 1051        |
+| Validation   | 840       | 469       | 1432         | 339         |
+| Test         | 681       | 347       | 1210         | 255         |
+| **Total**    | **4193**  | **2357**  | **7302**     | **1645**    |
+| **%**        | 27.06     | 15.21     | 47.12        | 10.61       |
+
+**Table 2:** Distribution of claims by numerical abilities required
+
 
 # Data Creation Pipeline
 ![data_creation_pipe](https://github.com/user-attachments/assets/f126c339-821e-4c97-8bbb-87c790675959)
