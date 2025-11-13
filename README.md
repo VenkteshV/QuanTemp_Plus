@@ -66,11 +66,19 @@ The dataset artifacts can be found in the below link:
 
  # To run systems on already collected data
  To reproduce retrieval and NLI results of QGEN in Tables 4 and 5: 
+
+ 
  First train the query generator
  ```python3 src/qgen/train/FlanT5.py```
 
  Then run inference
- ```src/qgen/infer/FlanT5_inference.py```
+ ```python3 src/qgen/infer/FlanT5_inference.py```
+
+ Then run retrieval with temporal filter for reproducing Qgen results in Table 4
+
+ ```python3 main/src/evaluation/retrieval/qgen_temp_filter.py```
+
+ To run other baselines please run respective files in src/evaluation/retrieval folder.
   
  # To collect data from scratch
  First run query generation
