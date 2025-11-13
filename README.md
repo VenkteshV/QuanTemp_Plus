@@ -63,5 +63,13 @@ The dataset artifacts can be found in the below link:
  # Setup
  Pull the repository then:
  ``` conda create --name <env> --file requirements.txt ```
-
+ # To collect data from scratch
+ First run query generation
+ ```python3 src/data_pipe/agq/open-ai/oracle_runner.py```
+Then filer out low quality queries
+```src/data_pipe/agq/run_filter.py```
+ Using queries search the web using SERP
+ ```python3 src/data_pipe/serp/serper_search.py```
+ Run script used to crawl the web for the full web page content of the results
+ ``` python3 src/data_pipe/crawl_links/crawl_links.py```
   
